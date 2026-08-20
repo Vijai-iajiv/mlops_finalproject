@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/raw/breast_cancer.csv
+    - src/train.py
+    - src/utils.py
+    outs:
+    - models/model.joblib

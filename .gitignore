@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# DVC
+/data/raw/*.csv
+data/raw/*.csv
+
+# Models (tracked via MLflow registry, not git)
+models/*.pkl
+models/*.joblib
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Env
+.env
